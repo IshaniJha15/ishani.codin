@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+<table border="5" bgcolor="red">
+<tr>
+<th>bgcolor="yellow"border="10">film</td>
+<th>male actor</th>
+<th>female actor</th>
+</tr>
+<tr>
+
+<td>yeh jawani heh diwani</td>
+<td>ranveer kapoor</td>
+<td>deepika padukone</td>
+
+</tr>
+  <tr>
+  <td>bajirao mastani</td>
+  <td>ranvir singh</td>
+  <td>deepika padukone</td>
+  </tr>
+  </table>
+  </body>
+</html>
