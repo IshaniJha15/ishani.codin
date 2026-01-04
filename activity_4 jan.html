@@ -6,22 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>personal details form  </h1>
     <form>
-        <label>name</label><br>
-        <input type="text" id="name"><br><br>
-        <label>email id</label><br>
-        <input type="text" id="email"><br><br>
-        <label>contact no.(this will be hidden)</label><br>
-        <input type="password" id="contact"><br><br>
-        <label>gender</label><br>
-        <input type="radio" id="female" name="gender" value="female"><br><br>
-        <input type="radio" id="male" name="gender" value="male"><br><br>
-        <label>favourate city</label><br>
-        <input type="checkbox" id="city" value="new delhi"><br><br>
-        <input type="checkbox" id="city"  value="value"><br><br>
-        <input type="submit>
+        <fieldset>
+            <!-- the fieldset is used to group related elementsin a form and draw a box around them -->
+            <legend>personal information:</legend>
+            <label>full name:</label>
+            <!--placeholder attribute can be used to provide extr info about entry to be made-->
+            
+            <input type="text" id="fname" placeholder="enter name "><br><br>
+
+            <label>email </label>
+            <input type="text" id="email"><br><br>
+            
+            <label>gender:</label><br>
+            <input type="radio" id="female" name="gender" value="female">female<br><br>
+            <input type="radio" id="male" name="gender" value="male">male<br><br>
+            <label>bday:</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+        </fieldset>
 
     </form>
+    
 </body>
 </html>
