@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>enter no. and click ok:</p>
+
+    <input id="id" type="number" min="100" max="300" required>
+    <button onclick="myFunction()">OK</button>
+    <p>if no. is greater than 100 or 300,error image wl be shown</p>
+
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+             var inpobj = document.getElementById("id")
+
+             if (!inpobj. checkValidity()) {
+                document.getElementById("demo").innerHTML = inpobj.validationMessage;
+             }else {
+                document.getElementById("demo").innerHTML = "Input OK";
+             }
+
+        }
+    </script>
+</body>
+</html>
