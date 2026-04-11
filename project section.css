@@ -1,0 +1,28 @@
+/*footer background like the image */
+footer{
+    background: #2b2b2b;
+    width: 100%;
+}
+/*center text +spacin */
+footer .container{
+    padding: 22px 0 !important;
+
+}
+/*text stylin*/
+footer .h5{
+    margin:  0 ;
+    font-size: 14px;
+    font-weight: 500;
+    color: aqua;
+
+}
+/*  highlighted link text */
+footer .a{ 
+    color: green  !important;/*green*/
+    text-decoration: none;
+
+}
+/*center text +spacin */
+footer a:hover{
+    text-decoration:underline;
+}
